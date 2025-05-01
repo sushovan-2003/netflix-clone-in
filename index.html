@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
 </head>
+
 <body>
     <div class="main">
-        <nav>
+        <nav class="flex">
             <div class="logo"><img src="assets/logo.svg" alt=""></div>
-            <div class="buttons">
-                <button>English</button>
-                <button>Sign In</button>
+            <div class="buttons flex">
+                <button class="english">English</button>
+                <button class="sign">Sign In</button>
             </div>
         </nav>
-            <div class="box"></div>
+        <div class="box"></div>
         <div class="hero">
             <div>Unlimited movies, TV shows and more</div>
             <div>Starts at ₹149. Cancel at any time.</div>
         </div>
+
+        <div class="email flex">
+            <div>Ready to watch? Enter your email to create or restart your membership.</div>
+            <div class="emailbutton align-items flex justify-content">
+                <input type="text" placeholder="Email address">
+                <button>Get Started ></button>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
